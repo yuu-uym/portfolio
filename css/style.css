@@ -5,9 +5,7 @@
 }
 
 body {
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
-  "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
-  "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 15px;
   line-height: 1.8;
   letter-spacing: .8px;
@@ -62,7 +60,7 @@ li {
 ---------------------------------*/
 .heading-primary {
   font-family: "Open sans", sans-serif;
-  font-size: 70px;
+  font-size: 8vmin;
   font-weight: normal;
   line-height: 1;
   margin-bottom: 15px;
@@ -88,7 +86,7 @@ li {
  レイアウト
 ---------------------------------*/
 .wrapper {
-  padding-top: 68px;
+  padding-top: 50px;
 }
 
 .section {
@@ -96,7 +94,7 @@ li {
 }
 
 .section:nth-of-type(odd) {
-  background-color: #f9fff4;
+  background-color: #d6e9ca;
 }
 
 .inner {
@@ -104,6 +102,20 @@ li {
   margin: 0 auto;
   padding: 0 40px;
 }
+
+.skill-title{
+  font-size: 3vmin;
+  background: linear-gradient(transparent 0%, #a6c8b2 50%);
+  width: 50%;
+}
+
+
+.point{
+  border-bottom: solid 2px #a6c8b2;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
 
 /*--------------------------------
 ヘッダー
@@ -123,6 +135,7 @@ li {
   margin-bottom: 30px;
   padding: 0 20px;
   text-align: center;
+  color: white;
 }
 
 .logo-title {
@@ -148,7 +161,7 @@ li {
   left: 0;
   z-index: 100;
   width: 100%;
-  background-color: #ffffdb;
+  background-color: #fcf395;
   -webkit-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   -moz-box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
   box-shadow: 0 3px 3px -3px rgba(0, 0, 0, .2);
@@ -322,15 +335,13 @@ li {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 50px;
+  white-space: nowrap
 }
 
-.skill-image-wrapper {
-  flex: 0 0 60px;
-  margin-right: 20px;
-}
 
 .skill-body {
   flex: 1;
+  margin-left: 18vmin;
 }
 
 .skill-body p:not(:last-child) {
@@ -416,7 +427,7 @@ li {
  フッター
 ---------------------------------*/
 .footer {
-  background-color: #8ae98a;
+  background-color: #93ca76;
 }
 
 .footer .inner {
@@ -435,7 +446,7 @@ li {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  background-color: #ffffdb;
+  background-color: #fcf395;
 }
 
 /*media Queries 767
@@ -472,7 +483,7 @@ li {
   }
 
   .heading-primary {
-    font-size: 40px;
+    font-size: 5vmin;
   }
 
   /* レイアウト */
@@ -496,6 +507,7 @@ li {
   .logo-title {
     font-size: 50px;
     letter-spacing: .16em;
+
   }
 
   .logo-subtitle {
