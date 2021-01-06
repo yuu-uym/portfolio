@@ -104,11 +104,10 @@ li {
 }
 
 .skill-title{
-  font-size: 3vmin;
+  font-size: 18px;
   background: linear-gradient(transparent 0%, #a6c8b2 50%);
-  width: 50%;
+  width: 80%;
 }
-
 
 .point{
   border-bottom: solid 2px #a6c8b2;
@@ -488,7 +487,7 @@ li {
 
   /* レイアウト */
   .wrapper {
-    padding-top: 82px;
+    padding-top: 50px;
   }
 
   .section {
@@ -501,7 +500,7 @@ li {
 
   /* ヘッダー */
   .header {
-    height: 70vh;
+    height: 50vh;
   }
 
   .logo-title {
