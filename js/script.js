@@ -1,5 +1,5 @@
 // PhotoSwipe
-initPhotoSwipeFromDOM(".js-my-gallery");
+
 
 $(function () {
 
@@ -11,8 +11,6 @@ $(function () {
     $("body").addClass("ios");
   }
 
-  //Worksのリンクを有効化
-  //スライド（Swiper）内に記載のリンクを有効にするため下記の記述が必要 (;´･ω･)ｳｰﾝ･･･
   $(".works-url").on("click", "a", function (e) {
     e.stopPropagation();
   });

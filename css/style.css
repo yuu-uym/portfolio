@@ -262,6 +262,15 @@ li {
   opacity: 1;
 }
 
+.explnation{
+  font-size: 1.8vmin;
+  margin-bottom: 10px;
+}
+
+.app-link{
+  font-size: 1.5vmin;
+}
+
 /*--------------------------------
  Feature
 ---------------------------------*/
@@ -638,3 +647,4 @@ li {
     padding: 20px 0;
   }
 }
+
