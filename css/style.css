@@ -123,7 +123,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 86vh;
+  height: 60vh;
   background-image: url("main.jpg");
   background-size: cover;
   background-position: center center;
@@ -509,11 +509,11 @@ li {
 
   /* ヘッダー */
   .header {
-    height: 50vh;
+    height: 60vh;
   }
 
   .logo-title {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: .16em;
 
   }
