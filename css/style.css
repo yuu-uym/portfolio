@@ -577,6 +577,8 @@ li {
   /* About */
   .about-item {
     display: block;
+    white-space: nowrap;
+    font-size: 90%;
   }
 
   .about-image-wrapper {
@@ -589,11 +591,17 @@ li {
   .skill-list {
     display: block;
     margin-bottom: 0;
+    font-size: 90%;
   }
 
   .skill-item {
     max-width: 100%;
     margin-bottom: 35px;
+    font-size: 100%;
+  }
+
+  .skill-title {
+    font-size: 120%;
   }
 
   .skill-item:last-child {
@@ -648,3 +656,67 @@ li {
   }
 }
 
+
+@media (max-width: 750px) {
+
+h1{
+  font-size: 150%;
+  margin: 20px;
+}
+.works-list{
+ display: inline;
+ margin-bottom: -40px;
+}
+
+.works-item {
+  flex: 0 0 32.31552%;
+  margin-right: 1.52671%;
+  margin-bottom: 40px;
+}
+
+.works-item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.works-body {
+  text-align: center;
+}
+
+.works-title {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.works-text {
+  font-size: 10px;
+}
+
+.works-url {
+  font-size: 10px;
+}
+
+.works-image.fadein {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+  opacity: 0;
+}
+
+.works-image.fadein.lazyloaded {
+  opacity: 1;
+}
+
+.explnation{
+  font-size: 100%;
+  margin-bottom: 10px;
+}
+
+.app-link{
+  font-size: 100%;
+}
+
+p{
+  font-size: 90%;
+}
+
+}
